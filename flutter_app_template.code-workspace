@@ -4,6 +4,10 @@
             "name": "📱 Template (app_template)",
             "path": "app_template"
         },
+         {
+            "name": "🧑‍💻 Devx",
+            "path": "devx"
+        },
     ],
     "settings": {
         "git.ignoreLimitWarning": true,
