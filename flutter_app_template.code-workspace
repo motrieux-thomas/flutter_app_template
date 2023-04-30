@@ -1,0 +1,29 @@
+{
+    "folders": [
+        {
+            "name": "📱 Template (app_template)",
+            "path": "app_template"
+        },
+    ],
+    "settings": {
+        "git.ignoreLimitWarning": true,
+        "editor.formatOnPaste": true,
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "files.watcherExclude": {
+            "**/.fvm": true,
+        },
+        "files.exclude": {
+            "**/.packages": true,
+            "**/.flutter-plugins*": true,
+            "**/.metadata": true,
+            "**/macos": true,
+            "**/linux": true,
+            "**/windows": true,
+            "**/web": true,
+            "**/build": true,
+            "**/coverage": true,
+            "**/.dart_tool": true,
+        },
+    }
+}
