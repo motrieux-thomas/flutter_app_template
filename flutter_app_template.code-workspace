@@ -8,6 +8,10 @@
             "name": "🧑‍💻 Devx",
             "path": "devx"
         },
+  	{
+            "name": "🎨 Theme (template_theme)",
+            "path": "template_theme"
+        },
     ],
     "settings": {
         "git.ignoreLimitWarning": true,
