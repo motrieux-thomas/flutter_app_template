@@ -12,6 +12,10 @@
             "name": "🎨 Theme (template_theme)",
             "path": "template_theme"
         },
+	{
+            "name": "🗄️ Repositories",
+            "path": "repositories"
+        },
     ],
     "settings": {
         "git.ignoreLimitWarning": true,

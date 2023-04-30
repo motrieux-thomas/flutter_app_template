@@ -1,0 +1,26 @@
+{
+  "Model": {
+    "prefix": "local model",
+    "body": [
+      "import 'package:freezed_annotation/freezed_annotation.dart';",
+      "import 'package:hive/hive.dart';",
+      "",
+      "part '${TM_FILENAME/.dart//gi}.freezed.dart';",
+      "part '${TM_FILENAME/.dart//gi}.g.dart';",
+      "",
+      "@freezed",
+      "abstract class ${1:Model} with _$${1:Model} {",
+      "  @HiveType(typeId: 0, adapterName: '${1:Model}Adapter')",
+      "  const factory ${1:Model}({",
+      "    @HiveField(0) required String field,",
+      "  }) = _${1:Model};",
+      "",
+      "  factory ${1:Model}.fromJson(Map<String, dynamic> json) =>",
+      "      _$${1:Model}FromJson(json);",
+      "",
+      "}",
+      ""
+    ],
+    "description": "Model"
+  }
+}
