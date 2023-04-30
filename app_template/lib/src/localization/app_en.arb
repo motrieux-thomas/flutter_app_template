@@ -1,0 +1,46 @@
+{
+	"appTitle": "Template App",
+	"@appTitle": {
+		"description": "Title of the app"
+	},
+	"homepageTitle": "Homepage",
+	"@homepageTitle": {
+		"description": "Title of the homepage"
+	},
+	"navigationBarHomepageItem": "Home",
+	"@navigationBarHomepageItem": {
+		"description": "Label of the homepage item in the navigation bar"
+	},
+	"errorTitle": "An error occurred",
+	"@errorTitle": {
+		"description": "Generic error title"
+	},
+	"errorDescription": "Something went wrong.",
+	"@errorDescription": {
+		"description": "Generic error description"
+	},
+	"errorRetryLabel": "Retry",
+	"@errorRetryLabel": {
+		"description": "Label of the error retry button"
+	},
+	"rememberMe": "Remember me",
+	"@rememberMe": {
+		"description": "Label of the remember me checkbox on the login page"
+	},
+	"login": "Login",
+	"@login": {
+		"description": "Label of the login button on the login page"
+	},
+	"password": "Password",
+	"@password": {
+		"description": "Label of the password field on the login page"
+	},
+	"formValidationEmailLabel": "You must enter an email",
+	"@formValidationEmailLabel": {
+		"description": "Text field email validation message"
+	},
+	"formValidationRequiredLabel": "This field is required",
+	"@formValidationRequiredLabel": {
+		"description": "Required field validation message"
+	}
+}
