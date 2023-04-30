@@ -8,21 +8,15 @@ import 'package:flutter_test/flutter_test.dart';
 
 class StandardKeyboardSizes {
   const StandardKeyboardSizes._();
-<<<<<<< Updated upstream
-  static const Size iPhoneSE = Size(320, 182);
-  static const Size iPhone8 = Size(375, 218);
-  static const Size iPhone13 = Size(390, 302);
-  static const Size iPadMini = Size(1133, 348);
-  static const Size iPadProLandscape = Size(1366, 420);
-  static const Size iPadProPortrait = Size(1024, 407);
-=======
 
   static const Size iPhoneSE = Size(320, 182);
   static const Size iPhone8 = Size(375, 218);
   static const Size iPhone13 = Size(390, 302);
->>>>>>> Stashed changes
 }
 
+// Used to set window.viewInsets since the real ui.WindowPadding has only a
+// private constructor.
+// ignore: unused_element
 class _TestWindowPadding implements WindowPadding {
   const _TestWindowPadding({required this.bottom});
 
@@ -41,9 +35,11 @@ class _TestWindowPadding implements WindowPadding {
 
 class StandardPixelDensity {
   const StandardPixelDensity._();
+
   static const double iPhoneSE = 2.0;
   static const double iPhone8 = 2.0;
   static const double iPhone13 = 3.0;
+  static const double iPadPro = 2.0;
 }
 
 class StandardWindowSizes {
@@ -62,6 +58,21 @@ class StandardWindowSizes {
   static const Size iPhone13 = Size(
     390 * StandardPixelDensity.iPhone13,
     844 * StandardPixelDensity.iPhone13,
+  );
+
+  static const Size iPadProLandscape = Size(
+    1366 * StandardPixelDensity.iPadPro,
+    1024 * StandardPixelDensity.iPadPro,
+  );
+
+  static const Size iPadProLandscapeTwoThird = Size(
+    981 * StandardPixelDensity.iPadPro,
+    1024 * StandardPixelDensity.iPadPro,
+  );
+
+  static const Size iPadProPortrait = Size(
+    1024 * StandardPixelDensity.iPadPro,
+    1366 * StandardPixelDensity.iPadPro,
   );
 }
 
@@ -121,6 +132,7 @@ class StandardWindowInfos {
     viewInsets: StandardViewInsets.iPhone13,
     keyboardSize: StandardKeyboardSizes.iPhone13,
   );
+
 }
 
 class AppValueVariant<StandardWindowInfos>

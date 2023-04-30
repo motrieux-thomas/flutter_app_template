@@ -26,7 +26,7 @@ packages:
     source: hosted
     version: "1.2.1"
   clock:
-    dependency: transitive
+    dependency: "direct dev"
     description:
       name: clock
       sha256: cb6d7f03e1de671e34607e909a7213e31d7752be4fb66a86d29fe1eb14bfb5cf
@@ -312,6 +312,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.11.0"
+  stateful:
+    dependency: "direct main"
+    description:
+      name: stateful
+      sha256: efaa6931a5d49adf8c8d53b9b10d7d82ca075108998ef7413cc22271473d4cca
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.2.1"
   stream_channel:
     dependency: transitive
     description:
